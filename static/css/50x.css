@@ -1,0 +1,33 @@
+head, html {
+    background-color: #2a7db8;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+.face {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 145px;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 650px;
+}
+
+.lowerinfo {
+    font-size: 15px;
+}
+
+.contactinfo {
+    font-size: 12px;
+}
+
+.QRcode img {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 10px;
+    float: left;
+}

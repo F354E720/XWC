@@ -1,0 +1,150 @@
+/* ------------------------ */
+/* PAGE: ABOUT */
+/* ------------------------ */
+
+    /* Structure and style for ALL Elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+    /* Structure and style for the entire page */
+html, body {
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+    /* Structure and style for the main container */
+.primary-container{
+    background: linear-gradient(#0e0022, #361172);
+    background-size: 500% 500%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+    /* Structure and style for left section */
+.left-container {
+    background: linear-gradient(90deg, #571b8b, #340461);
+    border-radius: 10px;
+    margin: 5px 5px;
+    padding: 10px;
+}
+
+.right-container {
+    background: linear-gradient(270deg, #42166b, #420558);
+    border-radius: 10px;
+    margin: 5px 5px;
+    padding: 10px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+    /* Structure and style for the image container */
+.image-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.image-holder {
+    border-radius: 50%;
+    filter: grayscale();
+    border: 4px solid #1d1d1d;
+    padding: 10px;
+    max-width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/static/img/lazypicture.JPG");
+    transition: 0.5s;
+}
+
+.image-holder:hover {
+    filter: none;
+    border: 4px solid #9c46ce;
+}
+
+    /* Structure and Style for paragraphs on ABOUT page */
+.explanatoryParagraph {
+    display: block;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.parenthetical {
+
+}
+
+    /* GENERAL TAG */
+.generalTag {
+    display: inline-block;
+    margin: 2px 5px;
+    padding: 3px 5px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-shadow: 0 0 2px #d1d1d1;
+    transition: 0.5s;
+}
+
+    /* Hover effect on GENERAL TAG */
+.generalTag:hover {
+    background-color: #ffffff;
+    color: #000000
+}
+
+/* Structure for the containers */
+.parentheticalContainer {
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    /* EQUATIONS */
+.equation {
+    margin: 4px;
+    padding: 7px 15px;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    text-shadow: 0 0 4px #dfdfdf85;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+    /* Hover effect for EQUATIONS */
+.equation:hover {
+    color: black;
+    background-color: #FFFFFF;
+}
+
+/* Styling for the SKILLS */
+.skills {
+    color: #FFFFFF;
+    text-shadow: 0 0 2px #dfdfdf;
+}
+
+    /* Style for the general hyperlink */
+.hyperlink-general {
+    color: #6fb86f;
+}
+
+    /* Style for the special hyperlink */
+.hyperlink-special {
+    color: orange;
+}
+
+    /*  */
+.dangerous {
+    color: #c54040;
+}
