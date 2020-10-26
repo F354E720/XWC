@@ -1,3 +1,2 @@
 [build]
-publish = "bowling/public/"
-command = "hugo"
+publish = "XWC/public/"
