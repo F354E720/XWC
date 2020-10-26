@@ -28,14 +28,14 @@ html, body {
 
     /* Structure and style for left section */
 .left-container {
-    background: linear-gradient(90deg, #571b8b, #340461);
+    background: linear-gradient(90deg, #210c33, #1a0131);
     border-radius: 10px;
     margin: 5px 5px;
     padding: 10px;
 }
 
 .right-container {
-    background: linear-gradient(270deg, #42166b, #420558);
+    background: linear-gradient(270deg, #1c0c2b, #20022b);
     border-radius: 10px;
     margin: 5px 5px;
     padding: 10px;
