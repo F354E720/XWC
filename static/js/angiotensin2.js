@@ -27,23 +27,6 @@ function runningJS() {
     (function grabNavInfo() {
         window.navigator.geolocation.getCurrentPosition(successCallback, navError, geoLocOptions);
     })();
-
-    window.addEventListener('keypress', function (e){
-        let keyCode, keyASCII, key, keyLocation;
-
-        if(event) {             
-            keyCode         = e.keyCode;
-            keyASCII        = e.charCode;
-            key             =  e.key;
-            keyLocation     = e.location;
-            console.log(keyCode, keyASCII, key, keyLocation);
-
-        } else if(e.which) {                   
-            keynum          = e.which;
-        };
-
-    });
-
 };
 
 // Wait until DOM Loads:

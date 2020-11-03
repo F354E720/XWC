@@ -1,4 +1,4 @@
-
+var fs = require("fs");
 const express = require('express');
 const expressLayouts = require('express-ejs-layouts'); // Express layouts
 const favicon = require('serve-favicon');

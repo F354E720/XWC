@@ -1,4 +1,3 @@
 [build]
-publish = "XWC/public/"
+publish = "dist"
 command = "npm install"
-functions = "functions"
