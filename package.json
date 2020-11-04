@@ -2,7 +2,7 @@
   "name": "Boxic",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "functions/server.js",
   "scripts": {
     "devStart": "nodemon server.js",
     "build": "netlify-lambda build express",
