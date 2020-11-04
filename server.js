@@ -46,3 +46,5 @@ app.use(expressLayouts); // Use the Express Layouts
 
 module.exports = app;
 module.exports.handler = serverless(app);
+
+// https://github.com/netlify/netlify-lambda/issues/56
