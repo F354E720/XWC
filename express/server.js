@@ -10,9 +10,6 @@ const {PythonShell} = require('python-shell');
 // Listen to a specific port OR :3000:
 const configPort = (process.env.PORT || 3000);
 
-// Listen:
-app.listen(configPort, console.log(`Server started on ${configPort}`));
-
 const router = express.Router();
 
 app.set('view engine', 'ejs'); // Use EJS View Engine
